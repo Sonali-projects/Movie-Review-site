@@ -70,15 +70,25 @@ bad7d98 (Initial commit)
 # 📂 Project Structure
 
 📦 movie-review-site
+
  ┣ 📂 src
+
  ┃ ┣ 📂 lib
+ 
  ┃ ┃ ┣ 📂 stores
+ 
  ┃ ┃ ┃ ┗ 📜 movieStore.ts  # Manages movie & review state
+ 
  ┃ ┣ 📂 routes
+ 
  ┃ ┃ ┣ 📜 +page.svelte  # Homepage listing movies & search
+ 
  ┃ ┃ ┣ 📜 movie/[id]/+page.svelte  # Movie details page with reviews
+ 
  ┃ ┣ 📜 app.html  # Main HTML file
+ 
  ┣ 📜 package.json  # Project metadata & dependencies
+ 
  ┣ 📜 README.md 
 
 
